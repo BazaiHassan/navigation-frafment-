@@ -40,4 +40,15 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    def nav_version = "2.1.0-alpha05"
+    implementation "androidx.navigation:navigation-fragment:$nav_version" // For Kotlin use navigation-fragment-ktx
+    implementation "androidx.navigation:navigation-ui:$nav_version" // For Kotlin use navigation-ui-ktx
+
+    def material_version = "1.1.0-alpha07"
+    implementation "com.google.android.material:material:$material_version"
+
+    // ssp and sdp for making responsible
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
 }
