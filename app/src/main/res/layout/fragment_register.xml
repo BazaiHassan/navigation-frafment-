@@ -75,7 +75,7 @@
                 android:textSize="@dimen/_14ssp" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_login_confirm"
+                android:id="@+id/btn_register_confirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_8sdp"

@@ -37,7 +37,7 @@
 
 
             <EditText
-                android:id="@+id/btn_login"
+                android:id="@+id/edt_username_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_12sdp"
@@ -46,7 +46,7 @@
                 android:hint="Username"
                 android:textSize="@dimen/_14ssp" />
             <EditText
-                android:id="@+id/btn_register"
+                android:id="@+id/edt_password_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_12sdp"
